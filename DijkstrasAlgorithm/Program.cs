@@ -22,6 +22,7 @@ namespace DijkstrasAlgorithm
 
         static void Main(string[] args)
         {
+            //Reads input from file passed via command line
 
             using (StreamReader sr = new StreamReader(args[0]))
             {
